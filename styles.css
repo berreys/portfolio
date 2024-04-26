@@ -122,7 +122,7 @@ main{
     position: fixed;
     top: 0;
     left: 0;
-    visibility:hidden;
+    visibility: hidden;
 }
 .contact-popup{
     height: 80%;
@@ -145,4 +145,26 @@ main{
 }
 .closing-x:hover{
     cursor: pointer;
+}
+
+td{
+    /* background-color: black !important; */
+    width: 5px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+tr{
+    height: 5px !important;
+}
+.calendar .width-full{
+    display: none !important;
+}
+.calendar .contrib-column{
+    display: none !important;
+}
+.calendar {
+    border: none !important;
+}
+.ContributionCalendar-label{
+    display: none !important;
 }
