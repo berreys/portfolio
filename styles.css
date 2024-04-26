@@ -133,7 +133,7 @@ main{
     left: 10%;
     z-index: 1001;
     visibility: hidden;
-    padding: 0;
+    padding: 15px 15px;
 }
 .closing-x{
     margin: 5px 5px;
@@ -147,34 +147,9 @@ main{
     cursor: pointer;
 }
 
-td{
-    /* background-color: black !important; */
-    width: 5px !important;
-    margin: 0px !important;
-    padding: 0px !important;
-}
-tr{
-    height: 5px !important;
-}
-.calendar .width-full{
-    display: none !important;
-}
-.calendar .contrib-column{
-    display: none !important;
-}
-.calendar {
-    border: none !important;
-}
-.ContributionCalendar-label{
-    display: none !important;
-}
-.calendar tr > *:nth-child(-n + 30)
-{
-    display: none;
-}
-.calendar{
-    width: fit-content !important;
-}
-.sr-only{
-    display: none !important;
+.title{
+    width: fit-content;
+    font-family: 'Nexa-Heavy', sans-serif;
+    margin: 0;
+    padding: 0;
 }
