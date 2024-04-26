@@ -168,3 +168,13 @@ tr{
 .ContributionCalendar-label{
     display: none !important;
 }
+.calendar tr > *:nth-child(-n + 30)
+{
+    display: none;
+}
+.calendar{
+    width: fit-content !important;
+}
+.sr-only{
+    display: none !important;
+}
