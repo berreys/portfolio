@@ -1,0 +1,119 @@
+/* Variables */
+
+:root {
+    --primary-dark: #222c31;
+    --secondary-dark: #003750;
+    --secondary-color: #00547a;
+    font-family: 'Nexa-Light';
+}
+@font-face {
+    font-family: 'Nexa-Heavy';
+    src: url('Nexa-Heavy.ttf');
+}
+@font-face {
+    font-family: 'Nexa-Light';
+    src: url('Nexa-ExtraLight.ttf');
+}
+*{
+    cursor: default;
+}
+a *{
+    cursor: pointer;
+}
+html{
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.863);
+}
+body{
+    height: 100vh;
+    margin: -20px 0;
+    padding: 0;
+    background-color: var(--primary-dark);
+}
+.side-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--secondary-dark);
+    width: 300px;
+    height: 100%;
+    padding-top: 30px;
+}
+main{
+    margin-left: 300px;
+    height: fit-content;
+    overflow: hidden;
+    
+}
+.name{
+    width: fit-content;
+    font-family: 'Nexa-Heavy', sans-serif;
+}
+.profile-pic{
+    width: 50%;
+    border-radius: 100000px;
+}
+.center{
+    display: block;
+    margin: 0 auto;
+}
+.side-introduction{
+    width: 80%;
+    text-align: center;
+}
+.nav-icons svg{
+    width: 35px;
+    filter: invert(100%);
+    margin: 0px 6px;
+}
+.nav-icons{
+    width: fit-content;
+}
+.nav-item{
+    text-align: center;
+    width: 100%;
+}
+.nav-item:hover{
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+.space-below-30{
+    margin-bottom: 30px;
+}
+.space-below-15{
+    margin-bottom: 15px;
+}
+
+.sidebar-bottom{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.sidebar-nav{
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+.contact-btn{
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    outline: 1px solid --primary-dark;
+    height: 100px;
+}
+.contact-btn button{
+    font-family: 'Nexa-Light';
+    color: var(--primary-dark);
+    border: none;
+    font-size: large;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.contact-popup{
+    
+}
