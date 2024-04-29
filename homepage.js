@@ -10,3 +10,6 @@ function closeClick(){
     const popup = document.querySelector(".contact-popup");
     popup.setAttribute("style", "visibility: hidden;");
 }
+function test(){
+    
+}
