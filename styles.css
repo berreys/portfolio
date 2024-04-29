@@ -188,3 +188,8 @@ main{
     width: fit-content;
     margin: 0 auto;
 }
+.success-message{
+    color: green;
+    width: fit-content;
+    margin: 0 auto;
+}
