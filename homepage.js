@@ -10,6 +10,6 @@ function closeClick(){
     const popup = document.querySelector(".contact-popup");
     popup.setAttribute("style", "visibility: hidden;");
 }
-function test(){
-    console.log("Test log");
+function submitContact(){
+    console.log("Email sent!");
 }

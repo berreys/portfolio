@@ -125,15 +125,16 @@ main{
     visibility: hidden;
 }
 .contact-popup{
-    height: 80%;
-    width: 80%;
+    height: fit-content;
+    width: 40%;
     background-color: var(--secondary-dark);
     position:fixed;
     top:10%;
-    left: 10%;
+    left: 30%;
     z-index: 1001;
     visibility: hidden;
     padding: 15px 15px;
+    border-radius: 2px;
 }
 .closing-x{
     margin: 5px 5px;
@@ -155,7 +156,29 @@ main{
 }
 .contact-form > input{
     margin-bottom: 20px;
+    height: 2em;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+}
+.contact-form > textarea{
+    margin-bottom: 20px;
+}
+.contact-form > input, .contact-form > textarea{
+    font-family: "Nexa-Light";
+    font-weight: bold;
+    cursor: text;
 }
 #email-content{
-    height: 200px;
+    resize: none;
+    width: 100%;
+}
+#contact-submit-button{
+    font-family: "Nexa-Light";
+    font-size: large;
+    font-weight: bold;
+}
+#contact-submit-button:hover{
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
 }

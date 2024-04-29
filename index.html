@@ -68,15 +68,15 @@
         <div class = 'contact-popup'>
             <span class = 'closing-x' onclick='closeClick()'>&#10006;</span>
             <h1 class = 'title'>CONTACT ME</h1>
-            <form class="contact-form" autocomplete="off">
-                <label for="name">Your name: </label>
-                <input type="text" name="name" id="name" required /><br>
-                <label for="email">Your email: </label>
+            <div class="contact-form">
+                <label for="name">Your name: </label><br>
+                <input type="text" name="name" id="name" required autocomplete="off"/><br>
+                <label for="email">Your email: </label><br>
                 <input type="email" name="email" id="email" required autocomplete="off" /><br>
-                <label for="content">Your message:</label>
-                <input type="text" name="content" id="email-content" required /><br>
-                <input type="submit" value="Send" />
-            </form>
+                <label for="content">Your message:</label><br>
+                <textarea name="content" id="email-content" rows="8"></textarea><br>
+                <input type="submit" id="contact-submit-button" value="Send" onclick="submitContact()"/>
+            </div>
               
         </div>
 
