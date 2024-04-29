@@ -182,3 +182,9 @@ main{
     background-color: rgb(204, 204, 204);
     cursor: pointer;
 }
+
+.error-message{
+    color: red;
+    width: fit-content;
+    margin: 0 auto;
+}
