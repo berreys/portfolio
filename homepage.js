@@ -11,5 +11,5 @@ function closeClick(){
     popup.setAttribute("style", "visibility: hidden;");
 }
 function test(){
-    
+    console.log("Test log");
 }
