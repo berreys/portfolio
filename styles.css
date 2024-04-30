@@ -196,19 +196,20 @@ main{
 
 #skill-card-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
     padding: 1em;
 }
 
 .skill-card{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 2px;
+    /* background-color: var(--secondary-dark); */
+    padding: 10px
 }
 .skill-title{
-    width: fit-content;
-    margin: 5px auto 0 auto;
-
+    margin-top: 5px;
+    
 }
 .skill-description{
 
