@@ -231,3 +231,12 @@ main{
 .skill-description{
 
 }
+.homepage-button{
+    background-color: white;
+    border:none;
+    color: var(--secondary-color);
+    height: 3em;
+    width: fit-content;
+    font-family: 'Nexa-Heavy';
+    
+}
