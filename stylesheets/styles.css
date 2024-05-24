@@ -4,6 +4,7 @@
     --primary-dark: #222c31;
     --secondary-dark: #003750;
     --secondary-color: #00547a;
+    --accent-color: rgba(255, 255, 255, 0.863);
     font-family: 'Nexa-Light';
 }
 @font-face {
@@ -15,15 +16,20 @@
     src: url('Nexa-ExtraLight.ttf');
 }
 *{
+    color: var(--accent-color);
     cursor: default;
 }
 a *{
     cursor: pointer;
 }
+a, a > *:visited{
+    color: var(--accent-color);
+    text-decoration: none;
+}
 html{
     margin: 0;
     padding: 0;
-    color: rgba(255, 255, 255, 0.863);
+    color: var(--accent-color);
 }
 body{
     height: 100vh;
@@ -232,7 +238,7 @@ main{
 
 }
 .homepage-button{
-    background-color: white;
+    background-color: var(--accent-color);
     border:none;
     color: var(--secondary-color);
     height: 3em;
