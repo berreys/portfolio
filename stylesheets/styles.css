@@ -9,11 +9,11 @@
 }
 @font-face {
     font-family: 'Nexa-Heavy';
-    src: url('Nexa-Heavy.ttf');
+    src: url('/assets/Nexa-Heavy.ttf');
 }
 @font-face {
     font-family: 'Nexa-Light';
-    src: url('Nexa-ExtraLight.ttf');
+    src: url('/assets/Nexa-ExtraLight.ttf');
 }
 *{
     color: var(--accent-color);
@@ -257,4 +257,16 @@ main{
     font-weight: bold;
     cursor: pointer;
     border-radius: 2px;
+}
+
+#resume-page{
+    /* background-color: var(--accent-color); */
+    width: 80%;
+    margin: 5vh auto 0 auto;
+    color: var(--primary-dark);
+}
+
+iframe{
+    border: none;
+    color: pink;
 }
