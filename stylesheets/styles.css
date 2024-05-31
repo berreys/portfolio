@@ -61,7 +61,7 @@ main{
 }
 .introduction-container{
     display: grid;
-    grid-template-columns: 4fr 3fr;
+    grid-template-columns: 1fr 1fr;
 }
 .introduction-right{
     display: flex;
@@ -70,12 +70,12 @@ main{
 }
 .introduction-right > img{
     max-width: 100%;
-    max-height: 100%;
-    width: 80%;
+    height: auto;
+    object-fit: contain;
 }
 .profile-pic{
     width: 50%;
-    border-radius: 100000px;
+    border-radius: 50%;
 }
 .center{
     display: block;
