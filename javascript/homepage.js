@@ -1,4 +1,5 @@
 function contactClick(){
+    console.log("hello")
     const shading = document.querySelector(".shading-div");
     shading.setAttribute("style", "visibility: visible;")
     const popup = document.querySelector(".contact-popup");
