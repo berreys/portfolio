@@ -183,9 +183,11 @@ main{
     border: none;
     border-radius: 2px;
     width: 100%;
+    color: var(--primary-dark);
 }
 .contact-form > textarea{
     margin-bottom: 20px;
+    color: var(--primary-dark);
 }
 .contact-form > input, .contact-form > textarea{
     font-family: "Nexa-Light";
@@ -200,6 +202,7 @@ main{
     font-family: "Nexa-Light";
     font-size: large;
     font-weight: bold;
+    color: var(--secondary-dark);
 }
 #contact-submit-button:hover{
     background-color: rgb(204, 204, 204);
@@ -265,15 +268,6 @@ main{
     margin: 5vh auto 0 auto;
     color: var(--primary-dark);
 }
-
-iframe{
-    border: none;
-}
-
-
-
-
-
 
 
 /* TIMELINE STYLING */
