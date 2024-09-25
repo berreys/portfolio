@@ -119,6 +119,10 @@ main {
     width: 100%;
 }
 
+.nav-item-focus {
+    background-color: var(--secondary-color);
+}
+
 .nav-item:hover {
     background-color: var(--secondary-color);
     cursor: pointer;
