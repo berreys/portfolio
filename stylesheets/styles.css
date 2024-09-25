@@ -78,7 +78,7 @@ main {
 }
 
 .introduction-right {
-    display: flex;
+    display: block;
     justify-content: center;
     padding: 1em 1em 1em 1em;
 }
@@ -284,17 +284,16 @@ main {
 
 .skill-description {}
 
-.homepage-button {
+/* .homepage-button {
     background-color: var(--accent-color);
     border: none;
     color: var(--secondary-color);
     height: 3em;
     width: fit-content;
     font-family: 'Nexa-Heavy';
+} */
 
-}
-
-.homepage-header>button {
+.homepage-button {
     font-family: 'Nexa-Light';
     color: var(--primary-dark);
     border: none;
