@@ -75,3 +75,13 @@ function removeErrorAndSuccessMessages(){
         parent.removeChild(successMsg);
     }
 }
+
+function downloadResume(){
+    const path = '../assets/resume.pdf';
+    const link = document.createElement('a');
+    link.href = path;
+    link.download = 'Sam-Berrey-Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
