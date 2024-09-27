@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: 'Nexa-Heavy';
-    src: url('/assets/Nexa-Heavy.ttf');
+    src: url('./assets/Nexa-Heavy.ttf');
 }
 
 @font-face {
     font-family: 'Nexa-Light';
-    src: url('/assets/Nexa-ExtraLight.ttf');
+    src: url('./assets/Nexa-ExtraLight.ttf');
 }
 
 * {
