@@ -314,7 +314,7 @@ button.download-button * {
 button.download-button {
     position: fixed;
     top: 50%;                /* Vertically centers the button */
-    right: 0;                /* Aligns the button to the right edge of the screen */
+    right: 5px;                /* Aligns the button to the right edge of the screen */
     transform: translateY(-50%);  /* Corrects for the element's height to center it */
     display: flex;
     align-items: center;
@@ -355,3 +355,26 @@ button.download-button:hover .button-text {
 button.download-button:hover svg {
     left: 10px; /* Maintain distance from left as button expands */
 }
+
+.portfolio-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding-left: 2em;
+}
+  
+.portfolio-title::after{
+    content: "";
+    flex-grow: 1;
+    height: 5px;
+    background-color: var(--secondary-color);
+    margin: 0 10px;
+}
+  
+.portfolio-title span {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  
