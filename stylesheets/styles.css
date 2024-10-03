@@ -307,57 +307,51 @@ main {
     color: var(--primary-dark);
 }
 
+button.download-button * {
+    cursor: pointer;
+}
 
-
-
-
-  
-  .button-container {
+button.download-button {
     position: fixed;
     top: 50%;                /* Vertically centers the button */
     right: 0;                /* Aligns the button to the right edge of the screen */
     transform: translateY(-50%);  /* Corrects for the element's height to center it */
-  }
-  
-  .circle-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50px;
     height: 50px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: width 0.4s ease, border-radius 0.4s ease;
-    outline: none;
-    display: flex;           /* Enables flexbox for alignment */
-    align-items: center;     /* Centers content vertically */
-    justify-content: center; /* Centers content horizontally */
-    overflow: hidden;        /* Prevents overflow when the button expands */
-  }
-  
-  .button-text {
-    opacity: 0;              /* Initially hidden */
-    white-space: nowrap;     /* Prevents text wrapping */
-    font-size: 16px;
+    border-radius: 100px;
+    background-color: var(--secondary-color);
+    font-family: 'Nexa-Light';
+    border: none;
     color: white;
-    transition: opacity 0.2s ease 0.4s; /* Fades in after button expansion */
-  }
-  
-  .button-icon {
-    transition: opacity 0.2s ease; /* For smooth transition */
-  }
-  
-  .button-container:hover .circle-button {
-    width: 200px;            /* Expands button width */
-    border-radius: 25px;     /* Changes to rounded rectangle */
-  }
-  
-  .button-container:hover .button-text {
-    opacity: 1;              /* Fade in text */
-  }
-  
-  .button-container:hover .button-icon {
-    opacity: 1;              /* Keep icon visible */
-  }
-  
+    cursor: pointer;
+    transition: width 0.4s ease;
+    overflow: hidden;
+}
+
+button.download-button svg {
+    position: absolute;
+    left: 10px; /* Keep it close to the left */
+    transition: left 0.4s ease;
+}
+
+button.download-button .button-text {
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.4s ease;
+    margin-left: 40px; /* Padding to position text to the right of the icon */
+}
+
+button.download-button:hover {
+    width: 200px; /* Expands the button horizontally */
+}
+
+button.download-button:hover .button-text {
+    opacity: 1;
+}
+
+button.download-button:hover svg {
+    left: 10px; /* Maintain distance from left as button expands */
+}
