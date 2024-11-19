@@ -314,7 +314,7 @@ button.download-button * {
 button.download-button {
     position: fixed;
     top: 50%;                /* Vertically centers the button */
-    right: 5px;                /* Aligns the button to the right edge of the screen */
+    right: 10px;                /* Aligns the button to the right edge of the screen */
     transform: translateY(-50%);  /* Corrects for the element's height to center it */
     display: flex;
     align-items: center;
