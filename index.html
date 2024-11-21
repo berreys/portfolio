@@ -8,6 +8,8 @@
 </head>
 
 <body>
+    
+    <!-- SIDEBAR -->
     <aside class = 'side-nav'>
         <h1 class = 'name center space-below-15'>SAM BERREY</h1>
         <img src = './assets/profile_pic.jpg' class = 'profile-pic center space-below-15'>
@@ -55,7 +57,10 @@
         </div>
         
     </aside>
+    
     <main>
+
+        <!-- HEADER WITH BIO AND PICTURE -->
         <div class="homepage-header">
             <div class="introduction-container">
                 <div class="introduction-left">
@@ -73,6 +78,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- EXPERIENCE -->
         <div class="portfolio-title">
             <span>Skills</span>
         </div>
@@ -123,6 +130,7 @@
             </div>
         </div>
 
+        <!-- SKILLS -->
         <div class="portfolio-title">
             <span>Skills</span>
         </div>
@@ -172,6 +180,8 @@
                 <p>Versed in many of the services offered by AWS from database management, hosting web solutions and APIs, and the utilization of lambda functions.</p>
             </div>
         </div>
+
+        <!-- DOWNLOAD RESUME BUTTON -->
         <button class="download-button" onclick="downloadResume()">
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="30px">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -182,7 +192,10 @@
             </svg>
             <span class="button-text">Download Resume</span>
         </button>
+
     </main>
+
+    <!-- CONTACT ME -->
     <div class = 'shading-div' onclick="closeClick()"></div>
     <div class = 'contact-popup'>
         <span class = 'closing-x' onclick='closeClick()'>&#10006;</span>
@@ -197,6 +210,7 @@
             <input type="submit" id="contact-submit-button" value="Send" onclick="submitContact()"/>
         </div>
     </div>
+
 </body>
 
 </html>
