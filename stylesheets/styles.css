@@ -63,30 +63,32 @@ main {
 
 }
 
-.name {
-    width: fit-content;
-    font-family: 'Nexa-Heavy', sans-serif;
-}
-
-.homepage-header {
-    padding: 1em 1em 1em 1em;
-}
-
-.introduction-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.introduction-right {
-    display: block;
+.main-intro {
+    width: 100%;
+    height: 100vh;
+    display: flex;
     justify-content: center;
-    padding: 1em 1em 1em 1em;
+    align-items: center;
 }
-
-.introduction-right>img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
+.main-intro-content > * {
+    width: fit-content;
+    margin: 0 auto;
+    font-family: 'Nexa-Heavy';
+}
+.main-intro-name {
+    font-size: 3em;
+    
+}
+.main-intro-title {
+    font-size: 1.5em;
+}
+.main-intro-graduation {
+    margin-top: 15px;
+    font-size: .7em;
+    font-family: 'Nexa-Light';
+}
+.main-intro-title > *, .main-intro-name > *, .main-intro-graduation > * {
+    margin: 0;
 }
 
 .profile-pic {
