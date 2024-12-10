@@ -77,13 +77,15 @@ function removeErrorAndSuccessMessages(){
 }
 
 function downloadResume(){
-    const path = '../assets/resume.pdf';
-    const link = document.createElement('a');
-    link.href = path;
-    link.download = 'Sam-Berrey-Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // const path = '../assets/resume.pdf';
+    // const link = document.createElement('a');
+    // link.href = path;
+    // link.download = 'Sam-Berrey-Resume.pdf';
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
+    window.open('../assets/resume.pdf', '_blank');
+    return false;
 }
 
 $(".right-container-button").hover(function() {
