@@ -90,6 +90,36 @@ main {
 .main-intro-title > *, .main-intro-name > *, .main-intro-graduation > * {
     margin: 0;
 }
+.main-intro-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.main-intro-button {
+    all: unset;
+    font-family: 'Nexa-Light';
+    width: 100%;
+    background-color:var(--secondary-color);
+    text-align: center;
+    border-radius: 10000px;
+    padding: 10px;
+}
+.main-intro-button:hover {
+    cursor: pointer;
+    background-color: var(--secondary-dark);
+}
+.button-right-grid {
+    float:left;
+}
+.button-left-grid {
+    float:right;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Nexa-Heavy';
+}
 
 .profile-pic {
     width: 50%;
