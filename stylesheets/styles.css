@@ -377,7 +377,7 @@ button.download-button .button-text {
 }
 
 button.download-button:hover {
-    width: 200px; /* Expands the button horizontally */
+    width: 175px; /* Expands the button horizontally */
 }
 
 button.download-button:hover .button-text {
