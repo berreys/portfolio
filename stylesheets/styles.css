@@ -18,6 +18,10 @@
     src: url('../assets/Nexa-ExtraLight.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     color: var(--accent-color);
     cursor: default;
